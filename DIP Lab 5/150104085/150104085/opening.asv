@@ -1,0 +1,20 @@
+
+function open  = opening( I )
+
+[rows, columns] = size(I);
+open = zeros(size(I), class(I));
+
+se = logical([0 0 0 1 0 0 0; 0 0 1 1 1 0 0; 0 1 1 1 1 1 0;
+    1 1 1 1 1 1 1; 0 1 1 1 1 1 0; 0 0 1 1 1 0 0; 0 0 0 1 0 0 0]);
+[p, q]=size(se);
+halfHeight = floor(p/2);
+halfWidth = floor(q/2);
+
+erotedImage = erotion(I);
+c = se - erotedImage;
+d = c + I;
+
+for row= (1+halfWidth):(columns+halfWidth)
+    for 
+
+end

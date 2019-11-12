@@ -1,0 +1,9 @@
+You are given an input image (‘coins.jpg’) and a probability distribution for 256 possible intensities like this
+
+Intensity 0-99 each got .40/100 probability.
+Intensity 100-155 each got .20/56 probability.
+Intensity 156-255 each got .40/100 probability.
+
+Draw its CDF in a plot.
+
+Apply histogram specification of the image with this probability distribution. SHow modified image and its CDF plot.
